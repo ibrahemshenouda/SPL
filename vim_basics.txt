@@ -1,0 +1,23 @@
+hello in vim editior 
+this file to save important comands of vim 
+1.in termenal :
+	-vim nf -------> creating and open newfile whth name nf
+
+
+2.in vim  editor:
+	1.in vim edit mode:
+		esc ------> to start command mode
+ 
+	2.in vim command mode:
+		i --------> to srart edit mode
+		:q -------> to quit 
+		:q! ------> to quit without save
+		:w -------> to save any changes
+		:w nf.txt-> to save any chnages and save file in name: nf type: text
+		:wq ------> to save and exit in one command 
+		:set nu --> to set numbers for lines
+		yy -------> to copy line
+		p --------> to paste line in current location 
+		nyy ------> to copy n lines from current line
+		dd -------> to delete the current line
+		ndd ------> to delete n lines 
