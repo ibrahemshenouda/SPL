@@ -39,6 +39,13 @@ int main()
 			prorgam_execute(args);
 		}
 	}
+	int i;
+	for(i = 0; i < argc;i++)
+	{
+		free(args[i]);
+	}
+	free(buf);
+	free(args);
 	return 0;
 }
 
