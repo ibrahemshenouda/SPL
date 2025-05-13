@@ -49,7 +49,7 @@ int main()
 	while(1)
 	{
 		/*shell prompt*/
-		printf("Nano Shell >> ");
+		printf("Micro Shell >> ");
 		/*reading line from the user*/
 		buf = read_buf();
 		/*if user dont enter any thing continue*/
