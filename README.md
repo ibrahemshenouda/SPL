@@ -38,7 +38,7 @@ Its main purpose is to explore how the Linux operating system works internally b
    cd 01_my_shell
 3. **Compile Source code**  
    ```bash
-   gcc -o my_shell my_shell.c
+   gcc -o my_shell 04_micro_shell.c
 4. **Run your Shell**  
    ```bash
    ./my_shell
